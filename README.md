@@ -65,7 +65,7 @@ Apps that use this library include: [SoundCloud](https://play.google.com/store/a
 
 ## How does it look?
 
-![android-crop screenshot](screenshot.png)
+![android-crop screenshot](screenshot.jpeg)
 
 ## License
 
