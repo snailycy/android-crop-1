@@ -1,16 +1,24 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Crop.DoneCancelBar">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    <FrameLayout
+    <TextView
         android:id="@+id/btn_cancel"
-        style="@style/Crop.ActionButton">
-        <TextView style="@style/Crop.ActionButtonText.Cancel" />
-    </FrameLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/crop__cancel"
+        android:textColor="#ffffff"/>
 
-    <FrameLayout
+    <TextView
         android:id="@+id/btn_done"
-        style="@style/Crop.ActionButton">
-        <TextView style="@style/Crop.ActionButtonText.Done" />
-    </FrameLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/crop__done"
+        android:textColor="#FC9199"/>
 
-</LinearLayout>
+</RelativeLayout>
